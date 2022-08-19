@@ -1,5 +1,6 @@
 const Post = require("../models/postsSchema");
 
+// create post 
 exports.createPosts = async (req, res) => {
   try {
     const { postsText, postImage } = req.body;
